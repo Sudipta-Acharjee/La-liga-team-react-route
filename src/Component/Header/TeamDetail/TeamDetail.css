@@ -1,0 +1,40 @@
+.photo{
+    text-align: center;
+    width:20%;
+    height:20%;
+}
+.container{
+    background-image: url('https://wallpapercave.com/wp/vvZQmlz.jpg');
+    height:150%;
+}
+.detailsRow{
+    width:95%;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-right:10px;
+    padding:20px;
+    background-color:bisque;
+    display: flex;
+    border-radius:15px;
+}
+.text{
+    background-color: beige;
+    width:95%;
+    margin-left: 20px;
+    margin-right:10px;
+    padding:10px;
+    border-radius: 10px;
+}
+.detailsRow h4{
+    font-style:initial;
+}
+.genderPic img{
+    width:250%;
+}
+.footer img{
+    width:50px;
+    height:50px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 300px;
+}
