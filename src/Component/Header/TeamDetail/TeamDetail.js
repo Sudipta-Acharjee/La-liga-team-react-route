@@ -19,7 +19,7 @@ const TeamDetail = () => {
     return (
         <div>
             <div className="container">
-                <img className="photo" src={details.strTeamBadge} alt="picture">
+                <img className="photo" src={details.strTeamBadge} alt="wait">
                 </img>
             </div>
             <div>
@@ -36,7 +36,7 @@ const TeamDetail = () => {
                             <img src={
                                 details.strGender?.toLowerCase() === 'female' ? female : details.strGender?.toLowerCase
                                     () === "mixed" ? details.mixed : male}
-                                    alt="picture"></img>
+                                alt="wait"></img>
                         </div>
                     </div>
                 </div>
@@ -50,9 +50,9 @@ const TeamDetail = () => {
 
                 </div>
                 <div className="footer">
-                    <a href={`https://${details.strFacebook}`}><img src={facebookPic} alt="picture"></img></a>
-                    <a href={`https://${details.strYoutube}`}><img src={youtubePic} alt="picture"></img></a>
-                    <a href={`https://${details.strTwitter}`}><img src={TwitterPic} alt="picture"></img></a>
+                    <a href={`https://${details.strFacebook}`}><img src={facebookPic} alt="wait"></img></a>
+                    <a href={`https://${details.strYoutube}`}><img src={youtubePic} alt="wait"></img></a>
+                    <a href={`https://${details.strTwitter}`}><img src={TwitterPic} alt="wait"></img></a>
                 </div>
             </div>
         </div>

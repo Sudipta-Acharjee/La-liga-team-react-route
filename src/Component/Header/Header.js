@@ -4,7 +4,7 @@ import './Header.css';
 const Header = () => {
     return (
         <div className="container">
-            <img src="https://wallpapercave.com/wp/vvZQmlz.jpg"></img>
+            <img src="https://wallpapercave.com/wp/vvZQmlz.jpg" alt="wait"></img>
             <div className="centered"><b>TEAM ENCYCLOPEDIA</b></div>
         </div>
     );
