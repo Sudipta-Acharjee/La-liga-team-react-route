@@ -10,7 +10,7 @@ const Team = (props) => {
         <div className="row">
             <div className="column">
                 <div class="card teamCart ">
-                    <img className="card-img-top " src={strTeamBadge}></img>
+                    <img className="card-img-top " src={strTeamBadge} alt="picture"></img>
                     <div className="teamCart">
                         <h2>{strTeam}</h2>
                         <br />
